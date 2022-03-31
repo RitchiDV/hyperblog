@@ -1,4 +1,5 @@
 esta es la historia de ricardo Diaz 1998 -2022
+cat historia.txt : te enseña en el comando lo que contiene el archivo
 aprendiendo git  y comandos como : 
 git show historia.txt : veo el historial de los comandos y su historial
 git log historia.txt : veo las actualizaciones como historial.

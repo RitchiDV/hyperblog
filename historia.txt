@@ -6,6 +6,7 @@ git log historia.txt : veo las actualizaciones como historial.
 git init : se crea un repositorio
 git add .
 git commit historia .txt : se borra del commit o del add. 
+git commit -m "abcd" : con este commit agregas un comentario (importante)
 cd .. cd .
-git rm --cached historia.txt
+git rm --cached historia.txt (importante)
 git status : veo lo que no esta en commit y lo añadido  (importante)

@@ -15,3 +15,21 @@ git branch  te arroja todas las ramas que tienes creadas.
 git checkaut : cabecera : <----- es para entrar en la rama cabecera 
 git merge cabecera -m "comentario" : esta funcion fuciona a la rama creada
 con la rama master
+----------------------------------
+git remote add origin https://github.com/RitchiDV/hyperblog.git : con  esto se agrega un origen remoto de nuestros archivos
+git remote:  con esto nos envia lo que creamos (origin)
+
+git remote -v:sea verval o mas espesifico :nos muestra un 
+origin(para hacer (fetch) para traernos cosas
+y un origin (para hacer (push)) para enviar cosas 
+
+git push origin master :esto quiere decir  git enviele al origen  la rama master 
+git fetch origin master:esto quiere decir git traeme del origen la rama master 
+
+git pull origin master: hace cambios
+
+git pull origin master --allow-unrelated-histories -m"fucion con la master y github":
+esto fuciona lo que tenemos en github con lo que tengo local 
+
+
+git config -l :informacion del usuario en git 

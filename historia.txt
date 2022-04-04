@@ -33,3 +33,24 @@ esto fuciona lo que tenemos en github con lo que tengo local
 
 
 git config -l :informacion del usuario en git 
+
+-----------------------------------------------------------------
+como crear un entorno virtual: 
+creamos carpeta con (mkdir : nombre de carpeta)
+creamos un repositorio (git init)
+creamos un modulo py en la carpeta con : (py -m venv venv)
+para crear un alias con (avenv =.\venv\Scripts\activate): 
+esto para iniciar  con avenv el entorno virtual
+
+pip freeze : lo que hace es  mostrarnos que modulos o dependencias
+tenemos instalados en ese entorno virtual
+
+pip install: (pandas) este es el proceso para instalar la dependencia 
+puede ser otro en particular 
+
+en caso de querer compartir el archivo ocupa el usuario receptor
+cuales son los requerientos de dependencias para eso se crea un
+pip freeze > requirements.txt : crea un archivo txt con los requerientos
+
+para instalar las dependencias del archivo recivido es 
+(pip install -r requirements.txt)

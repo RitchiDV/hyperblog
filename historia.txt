@@ -13,3 +13,5 @@ git status : veo lo que no esta en commit y lo añadido  (importante)
 git branch: cabecera <----- es para crear una rama
 git branch  te arroja todas las ramas que tienes creadas.
 git checkaut : cabecera : <----- es para entrar en la rama cabecera 
+git merge cabecera -m "comentario" : esta funcion fuciona a la rama creada
+con la rama master

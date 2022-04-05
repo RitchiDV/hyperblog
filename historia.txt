@@ -1,4 +1,8 @@
 esta es la historia de ricardo Diaz 1998 -2022
+---------------------------------------------------------------------------
+funciones de git
+
+
 cat historia.txt : te enseña en el comando lo que contiene el archivo
 aprendiendo git  y comandos como : 
 git show historia.txt : veo el historial de los comandos y su historial
@@ -35,12 +39,17 @@ esto fuciona lo que tenemos en github con lo que tengo local
 git config -l :informacion del usuario en git 
 
 -----------------------------------------------------------------
+entorno virtual
+
 como crear un entorno virtual: 
 creamos carpeta con (mkdir : nombre de carpeta)
 creamos un repositorio (git init)
 creamos un modulo py en la carpeta con : (py -m venv venv)
 para crear un alias con (avenv =.\venv\Scripts\activate): 
 esto para iniciar  con avenv el entorno virtual
+
+----------------------------------------------------------------
+instalacion de pip
 
 pip freeze : lo que hace es  mostrarnos que modulos o dependencias
 tenemos instalados en ese entorno virtual
@@ -54,3 +63,27 @@ pip freeze > requirements.txt : crea un archivo txt con los requerientos
 
 para instalar las dependencias del archivo recivido es 
 (pip install -r requirements.txt)
+
+
+
+----------------------------------------------------------------------
+para crear una llave privada y una llave publica es en git bash
+
+ssh-keygen -t rsa -b 4096 -c "HakDigital98@gmail.com"
+
+1-(ssh-keygen -t rsa: esto lo que hace es espesificar que algoritmo usaremos para crear esa llave)
+2-(-b 4096 : aqui se espesifica que tan compleja es la llave )
+3-( -C espesifica a que correo electronico estara conectada esta llave)
+4-(por ultimo el correo electronico "HakDigital98@gmail.com")
+
+para saver si la llave esta activa:
+
+eval $(ssh-agent -s)
+
+
+es para añadir la identidad:
+
+ ssh-add ~/.ssh/id_rsa
+-------------------------------------------------------------------------
+para cambiar la URL de mis repocitorios por ejempli de Https: a (ssh)
+git remote set-url origin git@github.com:RitchiDV/hyperblog.git

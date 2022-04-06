@@ -104,7 +104,16 @@ Borrar un tag en el repositorio local: git tag -d nombre-del-tag.
 Listar los tags de nuestro repositorio local: git tag o git show-ref --tags.
 Publicar un tag en el repositorio remoto: git push origin --tags.
 Borrar un tag del repositorio remoto: git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag.
+-----------------------------------------------------------
+para agregar y contribiir en otro remoto es con:
 
+git remote add <nombre_del_remoto> <url_del_remoto> 
+ejemplo:
+git remote upstream https://github.com/freddier/hyperblog
 
-
+actualizar con tu repocitorio:
+ejemplo:
+git pull <remoto> <rama>
+git pull upstream master
+git commit  -am ""
 
